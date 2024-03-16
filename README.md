@@ -1,1 +1,1 @@
-https://github.com/AnastasiaEremenkova/posmotri_v_okno.git
+git@github.com:AnastasiaEremenkova/posmotri_v_okno.git
