@@ -43,6 +43,8 @@ ol {
 
 
 /*верстка*/
+/*смотрела по макету, у меня есть минимальные расхождения в несколько пикселей буквально,
+ может из-за того что я сохраняла макет, когда была в другой группе */
 .content {
   display: flex;
   justify-content: center;
@@ -59,7 +61,7 @@ ol {
 
 .content__list {
   margin-top: 26px;
-  max-height: 298px;
+  height: 298px;
   overflow: auto;
 }
 
@@ -148,6 +150,7 @@ ol {
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
+  text-align: left;
 }
 
 .content__video-card-description {
@@ -206,10 +209,11 @@ ol {
   border-top: 1px #fff solid;
   border-bottom: 1px #fff solid;
   color: currentColor;
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: 1.22;
+  font-family: "Fira Sans Condensed" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 1.22; */
+  line-height: 21.6px;
   text-align: left;
   background-color: inherit;
   -webkit-appearance: none;
@@ -320,4 +324,12 @@ label span {
 .search-form__label:has(.search-form__pseudo-checkbox):hover {
   text-decoration: underline 1px #fff solid;
   text-decoration-skip-ink: none;
+}
+
+
+
+
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
